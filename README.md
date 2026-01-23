@@ -4,6 +4,8 @@
 
 La web oficial muestra las faltas divididas en múltiples páginas, lo que hace difícil saber el total real de un vistazo. Esta extensión automatiza el proceso, lee todo el historial y muestra un resumen claro.
 
+![Demo de la extensión funcionando en Pincel Ekade](assets/demo-screenshot.png)
+
 ## 🚀 Características
 
 - **Conteo Automático:** Suma las faltas de todas las asignaturas al instante.
