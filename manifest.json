@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "EkadeCounter - Resumen de Faltas",
+  "version": "1.1",
+  "description": "Calcula automáticamente el total de faltas injustificadas en Pincel Ekade sumando todas las páginas.",
+  "icons": { 
+      "48": "icon.png" 
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/aplicaciones/educacion/ekadia/estudiante/matriculas-vigentes/informacion-academica/absentismo*"],
+      "js": ["content.js"]
+    }
+  ]
+}
